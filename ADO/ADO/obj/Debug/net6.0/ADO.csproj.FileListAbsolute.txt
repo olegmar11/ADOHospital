@@ -1,0 +1,14 @@
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\bin\Debug\net6.0\ADO.exe
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\bin\Debug\net6.0\ADO.deps.json
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\bin\Debug\net6.0\ADO.runtimeconfig.json
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\bin\Debug\net6.0\ADO.dll
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\bin\Debug\net6.0\ADO.pdb
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.AssemblyInfoInputs.cache
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.AssemblyInfo.cs
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.csproj.CoreCompileInputs.cache
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.dll
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\refint\ADO.dll
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.pdb
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.genruntimeconfig.cache
+C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ref\ADO.dll
