@@ -12,3 +12,17 @@ C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\refint\ADO.
 C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.pdb
 C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ADO.genruntimeconfig.cache
 C:\Users\olegm\Desktop\IKNI\3 year\PIS\lab2\ADO\ADO\obj\Debug\net6.0\ref\ADO.dll
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\bin\Debug\net6.0\ADO.exe
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\bin\Debug\net6.0\ADO.deps.json
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\bin\Debug\net6.0\ADO.runtimeconfig.json
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\bin\Debug\net6.0\ADO.dll
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\bin\Debug\net6.0\ADO.pdb
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\ADO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\ADO.AssemblyInfoInputs.cache
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\ADO.AssemblyInfo.cs
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\ADO.csproj.CoreCompileInputs.cache
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\ADO.dll
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\refint\ADO.dll
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\ADO.pdb
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\ADO.genruntimeconfig.cache
+D:\Stuff\Work\IT\IKNI5SEM\PIS\ADOHospital\ADO\ADO\obj\Debug\net6.0\ref\ADO.dll

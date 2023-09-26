@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\olegm\\.nuget\\packages\\": {}
+    "C:\\Users\\maksi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olegm\\Desktop\\IKNI\\3 year\\PIS\\lab2\\ADO\\ADO\\ADO.csproj",
+      "projectUniqueName": "D:\\Stuff\\Work\\IT\\IKNI5SEM\\PIS\\ADOHospital\\ADO\\ADO\\ADO.csproj",
       "projectName": "ADO",
-      "projectPath": "C:\\Users\\olegm\\Desktop\\IKNI\\3 year\\PIS\\lab2\\ADO\\ADO\\ADO.csproj",
-      "packagesPath": "C:\\Users\\olegm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olegm\\Desktop\\IKNI\\3 year\\PIS\\lab2\\ADO\\ADO\\obj\\",
+      "projectPath": "D:\\Stuff\\Work\\IT\\IKNI5SEM\\PIS\\ADOHospital\\ADO\\ADO\\ADO.csproj",
+      "packagesPath": "C:\\Users\\maksi\\.nuget\\packages\\",
+      "outputPath": "D:\\Stuff\\Work\\IT\\IKNI5SEM\\PIS\\ADOHospital\\ADO\\ADO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\olegm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maksi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
