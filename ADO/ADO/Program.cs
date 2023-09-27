@@ -403,6 +403,9 @@ namespace ADO
                         Console.Write("Ліки: {0} {1} {2} {3}", medicine[0].ItemArray[1], medicine[0].ItemArray[2], medicine[0].ItemArray[3], medicine[0].ItemArray[4]);
                         Console.WriteLine();
                     }
+                    
+                    Console.Write("Процедура: {0}, Ціна: {1}", dr[5], dr[6]);
+                    Console.WriteLine();
                 }
             }
 
@@ -597,7 +600,8 @@ namespace ADO
             {
                 foreach (DataColumn dc in dv.Table.Columns)
                 {
-                    Console.Write(dr.Row[dc] + " ");
+                    if (dr.Row[dc] != System.DBNull.Value) Console.Write(dr.Row[dc] + " ");
+                    else Console.Write("--- ");
                 }
                 Console.WriteLine();
             }
@@ -645,9 +649,17 @@ namespace ADO
                         break;
 
                     case "4":
-                        Display(changesDS.Tables["Створені"], changesDS);
-                        Display(changesDS.Tables["Модифіковані"], changesDS);
-                        Display(changesDS.Tables["Видалені"], changesDS);
+                        if (changesDS.Tables["Створені"].Rows.Count == 0
+                            && changesDS.Tables["Модифіковані"].Rows.Count == 0
+                            && changesDS.Tables["Видалені"].Rows.Count == 0)
+                        {
+                            Console.WriteLine("Ніяких змін не виявлено~");
+                            break;
+                        }
+
+                        if (changesDS.Tables["Створені"].Rows.Count > 0) Display(changesDS.Tables["Створені"], changesDS);
+                        if (changesDS.Tables["Модифіковані"].Rows.Count > 0) Display(changesDS.Tables["Модифіковані"], changesDS);
+                        if (changesDS.Tables["Видалені"].Rows.Count > 0) Display(changesDS.Tables["Видалені"], changesDS);
                         break;
 
                     default:
