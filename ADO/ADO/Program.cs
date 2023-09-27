@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data;
-
+using System.Text;
 namespace ADO
 {
     class DisconectedAdo
@@ -342,6 +342,7 @@ namespace ADO
         }
         public static void Display(DataTable dt, DataSet ds)
         {
+            
             Console.WriteLine("Таблиця {0}:", dt.TableName);
             if (dt.TableName != "Процедури" && ds != null) // Вивджу зміст таблиць
             {
@@ -591,6 +592,7 @@ namespace ADO
         // Виведення таблиці
         public static void DisplayView(DataView dv) 
         {
+            
             foreach (DataRowView dr in dv)
             {
                 foreach (DataColumn dc in dv.Table.Columns)
@@ -605,7 +607,6 @@ namespace ADO
         public static void Menu()
         {
             // Початкова ініціалізація набору даних
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
             DisconectedAdo a = new DisconectedAdo();
             DataSet myds = a.GenerateDataSet();
             changesDS = a.GenerateChangesDataSet();
@@ -992,6 +993,8 @@ namespace ADO
         //
         static void Main()
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.InputEncoding = Encoding.Unicode;
             Menu(); // Запуск меню
         }
     }
