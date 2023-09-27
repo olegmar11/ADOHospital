@@ -259,6 +259,7 @@ namespace ADO
             dt1.PrimaryKey = new DataColumn[] { dc1 };
 
             dt1.Columns.Add(new DataColumn("Table", typeof(string)));
+            dt1.Columns.Add(new DataColumn("ItemID", typeof(int)));
             dt1.Columns.Add(new DataColumn("C1", typeof(string)));
             dt1.Columns.Add(new DataColumn("C2", typeof(string)));
             dt1.Columns.Add(new DataColumn("C3", typeof(string)));
@@ -276,6 +277,7 @@ namespace ADO
             dt2.PrimaryKey = new DataColumn[] { dc2 };
 
             dt2.Columns.Add(new DataColumn("Table", typeof(string)));
+            dt2.Columns.Add(new DataColumn("ItemID", typeof(int)));
             dt2.Columns.Add(new DataColumn("C1", typeof(string)));
             dt2.Columns.Add(new DataColumn("C2", typeof(string)));
             dt2.Columns.Add(new DataColumn("C3", typeof(string)));
@@ -292,6 +294,7 @@ namespace ADO
             dt3.PrimaryKey = new DataColumn[] { dc3 };
 
             dt3.Columns.Add(new DataColumn("Table", typeof(string)));
+            dt3.Columns.Add(new DataColumn("ItemID", typeof(int)));
             dt3.Columns.Add(new DataColumn("C1", typeof(string)));
             dt3.Columns.Add(new DataColumn("C2", typeof(string)));
             dt3.Columns.Add(new DataColumn("C3", typeof(string)));
@@ -324,18 +327,18 @@ namespace ADO
             // Запис таблиці
             newChangeRow[1] = tableName;
 
-            int i = 1;
+            int i = 0;
 
             // Додавання інформації рядка
             for (; i < row.ItemArray.Length; i++) 
             {
-                newChangeRow[i + 1] = row[i];
+                newChangeRow[i + 2] = row[i];
             }
 
             // Дозаповнення пустих рядків
-            for (; i < changesTable.Columns.Count - 1; i++)
+            for (; i < changesTable.Columns.Count - 2; i++)
             {
-                newChangeRow[i + 1] = null;
+                newChangeRow[i + 2] = null;
             }
 
             changesTable.Rows.Add(newChangeRow);
@@ -426,25 +429,32 @@ namespace ADO
             {
                 // Підказка для вводу
                 Console.Write(prompts[i]);
+                string input = Console.ReadLine();
+
 
                 // Заповнення стовпця в залежності від типу
                 switch (dataTypes[i])
                 {
                     case "int":
-                        row[i + 1] = Convert.ToInt32(Console.ReadLine());
+                        row[i + 1] = Convert.ToInt32(input);
                         break;
 
                     case "string":
-                        row[i + 1] = Console.ReadLine();
+                        row[i + 1] = input;
                         break;
 
                     case "date":
-                        string[] temp = Console.ReadLine().Split(".");
+                        if (input == "")
+                        {
+                            row[i + 1] = DBNull.Value;
+                            break;
+                        }
+                        string[] temp = input.Split(".");
                         row[i + 1] = new DateOnly(Convert.ToInt32(temp[2]), Convert.ToInt32(temp[1]), Convert.ToInt32(temp[0]));
                         break;
 
                     default:
-                        row[i + 1] = Console.ReadLine();
+                        row[i + 1] = input;
                         break;
                 }
             }
